@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bf" camx="-100" y="350" isGF="false" camy="100" color="#5696A9" antialiasing="false" holdTime="3" sprite="mario88">
+	<anim x="0" loop="false" y="0" fps="1" anim="IDLE" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="15" anim="LEFT" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="15" anim="DOWN" name="singDOWN"/>
+	<anim x="0" loop="false" y="0" fps="15" anim="UP" name="singUP"/>
+	<anim x="0" loop="false" y="0" fps="15" anim="RIGHT" name="singRIGHT"/>
+</character>

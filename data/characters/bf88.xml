@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bf" camx="-40" y="350" isGF="false" camy="50" color="#5696A9" flipX="true" isPlayer="true" antialiasing="false" holdTime="3" sprite="bf88_v2">
+	<anim x="7" loop="false" y="0" fps="1" anim="IDLE" name="idle"/>
+	<anim x="7" loop="false" y="0" fps="15" anim="LEFT" name="singLEFT"/>
+	<anim x="9" loop="false" y="0" fps="15" anim="DOWN" name="singDOWN"/>
+	<anim x="7" loop="false" y="0" fps="15" anim="UP" name="singUP"/>
+	<anim x="7" loop="false" y="0" fps="15" anim="RIGHT" name="singRIGHT"/>
+	<anim x="7" loop="false" y="0" fps="15" anim="MILEFT" name="singLEFTmiss"/>
+	<anim x="9" loop="false" y="0" fps="15" anim="MIDOWN" name="singDOWNmiss"/>
+	<anim x="7" loop="false" y="0" fps="15" anim="MIUP" name="singUPmiss"/>
+	<anim x="7" loop="false" y="0" fps="15" anim="MIRIGHT" name="singRIGHTmiss"/>
+</character>

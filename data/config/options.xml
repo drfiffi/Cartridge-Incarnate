@@ -1,0 +1,8 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="CI Settings" desc="Specific CI Settings">
+	<choice id="hudsonSize" name="Hudson Res" desc="Hudson's Resolution">
+		<value name="640X420" value="640x420"/>
+		<value name="960x620" value="960x620"/>
+	</choice>
+</menu>
