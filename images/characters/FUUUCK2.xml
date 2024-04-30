@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FUUUCK2.png">
+<SubTexture name="notsofuck0000" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0001" x="42" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0002" x="42" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0003" x="42" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0004" x="42" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0005" x="42" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0006" x="42" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0007" x="42" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0008" x="84" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0009" x="84" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0010" x="84" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0011" x="84" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0012" x="0" y="50" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0013" x="42" y="50" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0014" x="84" y="50" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0015" x="84" y="50" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0016" x="84" y="50" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0017" x="84" y="50" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0018" x="84" y="50" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0019" x="0" y="100" width="39" height="50" frameX="-2" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0020" x="39" y="100" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0021" x="39" y="100" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0022" x="39" y="100" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0023" x="39" y="100" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0024" x="39" y="100" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0025" x="39" y="100" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0026" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0027" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0028" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0029" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0030" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0031" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0032" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0033" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0034" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0035" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0036" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0037" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0038" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0039" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="notsofuck0040" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+</TextureAtlas>

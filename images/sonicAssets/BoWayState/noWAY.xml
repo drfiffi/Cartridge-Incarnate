@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="noWAY.png">
+<SubTexture name="noway0000" x="0" y="0" width="320" height="224" frameX="0" frameY="0" frameWidth="320" frameHeight="224" />
+<SubTexture name="noway0001" x="0" y="224" width="320" height="224" frameX="0" frameY="0" frameWidth="320" frameHeight="224" />
+</TextureAtlas>
