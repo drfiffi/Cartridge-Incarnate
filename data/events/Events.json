@@ -1,0 +1,19 @@
+{
+	"params": [
+        {
+            "name": "Events",
+            "type": "DropDown('Foot Kisser')",
+            "defaultValue": ""
+        },
+        {
+            "name": "Value 1",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Value 2",
+            "type": "String",
+            "defaultValue": ""
+        }
+	]
+}

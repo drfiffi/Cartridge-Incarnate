@@ -4,30 +4,27 @@
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 7384.61538461538
+			"time": 7384.61538461538,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 14769.2307692308
+			"time": 14769.2307692308,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 22153.8461538462,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 22153.8461538462
 		}
 	],
 	"scrollSpeed": 3,
-	"codenameChart": true,
 	"strumLines": [
 		{
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -588,19 +585,23 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"sonichu"
 			],
-			"type": 0,
-			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -1149,21 +1150,20 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"brodySonichu"
+			],
+			"type": 1,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75,
-			"type": 1,
-			"characters": [
-				"brodySonichu"
-			]
+			"strumLinePos": 0.75
 		}
 	],
-	"stage": "stage",
+	"codenameChart": true,
+	"stage": "sonichu",
 	"noteTypes": []
 }
