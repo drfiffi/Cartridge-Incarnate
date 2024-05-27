@@ -16,7 +16,7 @@ var songSelect:Bool = false;
 var mortifySongsArray = ['daemonium', 'futility', 'freedom fighters', 'praesagium'];
 var milesSongsArray = ['experiment', 'enigma'];
 var mazinSongsArray = ['mugendai'];
-var snickSongsArray = ['challenge'];
+var snickSongsArray = ['expired chili'];
 var sonichuSongsArray = ['NO NAME4'];
 var prototypeSongsArray = ['NO NAME5'];
 
@@ -191,7 +191,6 @@ function update(){
         for(t in snickSongs) t.color = defaultColor;
         for(t in sonichuSongs) t.color = defaultColor;
         for(t in prototypeSongs) t.color = defaultColor;
-
         if(FlxG.keys.justPressed.UP){
             bioNumber -= 1;
         } else if(FlxG.keys.justPressed.DOWN){
