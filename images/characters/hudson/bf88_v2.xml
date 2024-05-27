@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bf88.png">
+<SubTexture name="IDLE0000" x="0" y="0" width="42" height="50" frameX="0" frameY="0" frameWidth="46" frameHeight="50" />
+<SubTexture name="RIGHT0000" x="80" y="98" width="35" height="32" frameX="-10" frameY="-18" frameWidth="46" frameHeight="50" />
+<SubTexture name="RIGHT0001" x="72" y="50" width="34" height="46" frameX="-10" frameY="-4" frameWidth="46" frameHeight="50" />
+<SubTexture name="DOWN0000" x="114" y="46" width="32" height="32" frameX="-6" frameY="-18" frameWidth="46" frameHeight="50" />
+<SubTexture name="DOWN0001" x="0" y="98" width="40" height="44" frameX="-6" frameY="-6" frameWidth="46" frameHeight="50" />
+<SubTexture name="UP0000" x="148" y="32" width="26" height="16" frameX="-12" frameY="-2" frameWidth="46" frameHeight="50" />
+<SubTexture name="UP0001" x="42" y="0" width="32" height="48" frameX="-10" frameY="-2" frameWidth="46" frameHeight="50" />
+<SubTexture name="LEFT0000" x="148" y="0" width="36" height="32" frameX="-6" frameY="-18" frameWidth="46" frameHeight="50" />
+<SubTexture name="LEFT0001" x="74" y="0" width="40" height="48" frameX="-2" frameY="-2" frameWidth="46" frameHeight="50" />
+<SubTexture name="MIRIGHT0000" x="80" y="98" width="35" height="32" frameX="-10" frameY="-18" frameWidth="46" frameHeight="50" />
+<SubTexture name="MIRIGHT0001" x="114" y="0" width="34" height="46" frameX="-10" frameY="-4" frameWidth="46" frameHeight="50" />
+<SubTexture name="MIDOWN0000" x="114" y="46" width="32" height="32" frameX="-6" frameY="-18" frameWidth="46" frameHeight="50" />
+<SubTexture name="MIDOWN0001" x="40" y="98" width="40" height="44" frameX="-6" frameY="-6" frameWidth="46" frameHeight="50" />
+<SubTexture name="MIUP0000" x="148" y="32" width="26" height="16" frameX="-12" frameY="-2" frameWidth="46" frameHeight="50" />
+<SubTexture name="MIUP0001" x="0" y="50" width="32" height="48" frameX="-10" frameY="-2" frameWidth="46" frameHeight="50" />
+<SubTexture name="MILEFT0000" x="148" y="0" width="36" height="32" frameX="-6" frameY="-18" frameWidth="46" frameHeight="50" />
+<SubTexture name="MILEFT0001" x="32" y="50" width="40" height="47" frameX="-2" frameY="-3" frameWidth="46" frameHeight="50" />
+</TextureAtlas>

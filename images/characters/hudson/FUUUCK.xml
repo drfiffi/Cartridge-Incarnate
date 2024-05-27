@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FUUUCK.png">
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0000" x="0" y="0" width="28" height="66" frameX="-6" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0001" x="28" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0002" x="28" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0003" x="28" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0004" x="28" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0005" x="28" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0006" x="60" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0007" x="60" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0008" x="28" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0009" x="28" y="0" width="32" height="64" frameX="-4" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0010" x="92" y="0" width="40" height="64" frameX="0" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0011" x="132" y="0" width="40" height="64" frameX="0" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0012" x="0" y="66" width="40" height="64" frameX="0" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0013" x="0" y="66" width="40" height="64" frameX="0" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0014" x="0" y="66" width="40" height="64" frameX="0" frameY="-88" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0015" x="40" y="66" width="37" height="57" frameX="-2" frameY="-95" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0016" x="77" y="66" width="38" height="44" frameX="-3" frameY="-108" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0017" x="115" y="66" width="37" height="47" frameX="-2" frameY="-105" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0018" x="152" y="66" width="37" height="46" frameX="-2" frameY="-106" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0019" x="115" y="66" width="37" height="47" frameX="-2" frameY="-105" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0020" x="152" y="66" width="37" height="46" frameX="-2" frameY="-106" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0021" x="115" y="66" width="37" height="47" frameX="-2" frameY="-105" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0022" x="0" y="130" width="38" height="46" frameX="-1" frameY="-106" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0023" x="38" y="130" width="43" height="65" frameX="0" frameY="-87" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0024" x="81" y="130" width="40" height="66" frameX="0" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0025" x="121" y="130" width="42" height="68" frameX="0" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0026" x="81" y="130" width="40" height="66" frameX="0" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0027" x="121" y="130" width="42" height="68" frameX="0" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0028" x="81" y="130" width="40" height="66" frameX="0" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0029" x="121" y="130" width="42" height="68" frameX="0" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0030" x="81" y="130" width="40" height="66" frameX="0" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0031" x="121" y="130" width="42" height="68" frameX="0" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0032" x="81" y="130" width="40" height="66" frameX="0" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0033" x="163" y="130" width="37" height="68" frameX="-1" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0034" x="0" y="198" width="37" height="66" frameX="-2" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0035" x="163" y="130" width="37" height="68" frameX="-1" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0036" x="0" y="198" width="37" height="66" frameX="-2" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0037" x="163" y="130" width="37" height="68" frameX="-1" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0038" x="0" y="198" width="37" height="66" frameX="-2" frameY="-86" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0039" x="163" y="130" width="37" height="68" frameX="-1" frameY="-84" frameWidth="49" frameHeight="152" />
+<SubTexture name="SHIIIIIIIIIIIIIIIIIIIIIT0040" x="0" y="198" width="37" height="66" frameX="-2" frameY="-86" frameWidth="49" frameHeight="152" />
+</TextureAtlas>

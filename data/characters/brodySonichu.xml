@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sonichu/brodySonichu.png">
+<SubTexture name="idle0000" x="1067" y="0" width="397" height="480" frameX="-1173" frameY="-563" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="idle0001" x="690" y="0" width="377" height="500" frameX="-1182" frameY="-544" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="idle0002" x="353" y="519" width="382" height="490" frameX="-1180" frameY="-553" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="idle0003" x="353" y="519" width="382" height="490" frameX="-1180" frameY="-553" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="idle0004" x="353" y="519" width="382" height="490" frameX="-1180" frameY="-553" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="left0000" x="1067" y="480" width="365" height="473" frameX="-1111" frameY="-572" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="left0001" x="1464" y="0" width="347" height="470" frameX="-1138" frameY="-575" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="left0002" x="0" y="1019" width="356" height="470" frameX="-1130" frameY="-575" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="down0000" x="1811" y="445" width="364" height="439" frameX="-1214" frameY="-606" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="down0001" x="356" y="1019" width="349" height="459" frameX="-1220" frameY="-588" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="down0002" x="705" y="1019" width="349" height="451" frameX="-1220" frameY="-595" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="up0000" x="0" y="0" width="337" height="519" frameX="-1237" frameY="-526" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="up0001" x="0" y="519" width="353" height="500" frameX="-1232" frameY="-544" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="up0002" x="337" y="0" width="353" height="506" frameX="-1232" frameY="-538" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="right0000" x="1054" y="1019" width="381" height="448" frameX="-1186" frameY="-556" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="right0001" x="1435" y="1019" width="366" height="445" frameX="-1179" frameY="-559" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="right0002" x="1811" y="0" width="371" height="445" frameX="-1179" frameY="-559" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="miss0000" x="1256" y="1489" width="450" height="411" frameX="-1136" frameY="-582" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="miss0001" x="0" y="1489" width="405" height="429" frameX="-1159" frameY="-565" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="miss0002" x="827" y="1489" width="429" height="417" frameX="-1146" frameY="-576" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="miss0003" x="405" y="1489" width="422" height="419" frameX="-1150" frameY="-574" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>
