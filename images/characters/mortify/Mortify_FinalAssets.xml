@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Mortify_FinalAssets.png">
+<SubTexture name="i0000" x="0" y="0" width="366" height="416" frameX="-412" frameY="-406" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="i0001" x="366" y="0" width="362" height="417" frameX="-409" frameY="-405" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="i0002" x="728" y="0" width="361" height="429" frameX="-404" frameY="-395" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="i0003" x="0" y="429" width="354" height="430" frameX="-408" frameY="-396" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="i0004" x="354" y="429" width="349" height="433" frameX="-411" frameY="-394" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="i0005" x="703" y="429" width="348" height="433" frameX="-412" frameY="-394" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="l0000" x="0" y="862" width="431" height="393" frameX="-287" frameY="-403" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="l0001" x="431" y="862" width="419" height="414" frameX="-308" frameY="-382" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="d0000" x="850" y="862" width="519" height="430" frameX="-360" frameY="-408" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="d0001" x="0" y="1292" width="497" height="453" frameX="-372" frameY="-388" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="u0000" x="497" y="1292" width="410" height="582" frameX="-420" frameY="-276" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="u0001" x="907" y="1292" width="432" height="563" frameX="-409" frameY="-294" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="r0000" x="0" y="1874" width="581" height="581" frameX="-499" frameY="-294" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="r0001" x="581" y="1874" width="538" height="586" frameX="-499" frameY="-289" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>
