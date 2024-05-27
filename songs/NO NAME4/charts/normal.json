@@ -589,7 +589,7 @@
 				}
 			],
 			"characters": [
-				"dad"
+				"sonichu"
 			],
 			"type": 0,
 			"visible": true,
@@ -601,8 +601,6 @@
 			"strumLinePos": 0.25
 		},
 		{
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -1151,17 +1149,19 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"bf"
-			],
-			"type": 1,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"type": 1,
+			"characters": [
+				"brodySonichu"
+			]
 		}
 	],
 	"stage": "stage",
