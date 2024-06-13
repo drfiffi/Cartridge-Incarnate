@@ -31,5 +31,4 @@
 <SubTexture name="NO WAY?0028" x="0" y="263" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
 <SubTexture name="NO WAY?0029" x="0" y="275" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
 <SubTexture name="NO WAY?0030" x="0" y="281" width="159" height="9" frameX="-80" frameY="-201" frameWidth="320" frameHeight="224" />
-<SubTexture name="NO WAY?0031" x="0" y="290" width="320" height="224" frameX="0" frameY="0" frameWidth="320" frameHeight="224" />
 </TextureAtlas>
