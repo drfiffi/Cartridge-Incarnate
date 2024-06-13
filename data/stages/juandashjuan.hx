@@ -1,4 +1,4 @@
-import flixel.system.scaleModes.StageSizeScaleMode;
+import flixel.system.scaleModes.RatioScaleMode;
 import sys.FileSystem;
 import funkin.backend.scripting.events.NoteHitEvent;
 public var pixelNotesForBF = true;
@@ -7,10 +7,15 @@ public var pixelNotesForDad = true;
 var camOther:FlxCamera;
 
 function create() {
-    FlxG.scaleMode = new StageSizeScaleMode();
+    FlxG.scaleMode = new RatioScaleMode();
     if(FlxG.save.data.hudsonSize == "640x420") {
-        FlxG.resizeGame(640, 420);
-        FlxG.resizeWindow(640, 420);
+        FlxG.initialWidth = FlxG.width = 640;
+		FlxG.initialHeight = FlxG.height = 420;
+		FlxG.resizeWindow(640, 420);
+		for(camera in FlxG.cameras.list) {
+     		camera.width = 640;
+        	camera.height = 420;
+    	}
     } else {
         camGame.flashSprite.scaleX = 1.5;
         camGame.flashSprite.scaleY = 1.5;
@@ -18,15 +23,20 @@ function create() {
         camHUD.flashSprite.scaleY = 1.5;
         camHUD.x = 321;
         camHUD.y = 180;
-        FlxG.resizeGame(960, 620);
-        FlxG.resizeWindow(960, 620);
+        FlxG.initialWidth = FlxG.width = 960;
+		FlxG.initialHeight = FlxG.height = 620;
+		FlxG.resizeWindow(960, 620);
+		for(camera in FlxG.cameras.list) {
+     		camera.width = 960;
+        	camera.height = 620;
+    	}
     }
     camOther = new FlxCamera(0, 0, 1280, 720);
     camOther.bgColor = FlxColor.TRANSPARENT;
     FlxG.cameras.add(camOther, false);
 
     emulatorui = new FlxSprite(0, 0).loadGraphic(Paths.image('stages/hudson/emulatorui'));
-    emulatorui.cameras = camOther;
+    emulatorui.cameras = [camOther];
 	add(emulatorui);
 }
 
@@ -63,9 +73,14 @@ function postUpdate(){
 }
 
 function destroy(){
-    FlxG.scaleMode = new StageSizeScaleMode();
-    FlxG.resizeGame(1280, 720);
+    FlxG.scaleMode = new RatioScaleMode();
+    FlxG.initialWidth = FlxG.width = 1280;
+	FlxG.initialHeight = FlxG.height = 720;
 	FlxG.resizeWindow(1280, 720);
+	for(camera in FlxG.cameras.list) {
+    	camera.width = 1280;
+    	camera.height = 720;
+	}
 }
 
 function onNoteCreation(event) {
@@ -73,6 +88,8 @@ function onNoteCreation(event) {
 	if (event.note.strumLine == cpuStrums && !pixelNotesForDad) return;
 
 	event.cancel();
+
+    event.note.splash = '';
 
 	var note = event.note;
 	if (event.note.isSustainNote) {

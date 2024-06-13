@@ -5,4 +5,5 @@
 		<value name="640X420" value="640x420"/>
 		<value name="960x620" value="960x620"/>
 	</choice>
+	<checkbox id="DevMode" name="Enable Dev Mode" desc="Enables Dev Mode (Setting will change after leaving Options)"/>
 </menu>

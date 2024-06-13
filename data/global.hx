@@ -2,6 +2,7 @@ import funkin.backend.utils.NativeAPI;
 import openfl.system.Capabilities;
 import funkin.backend.utils.NdllUtil;
 import lime.graphics.Image;
+import sys.FileSystem;
 
 static var initialized:Bool = false;
 
@@ -18,13 +19,13 @@ function preStateSwitch() {
 }
 
 function update(){
-    if(FlxG.keys.justPressed.P){
-        FlxG.switchState(new MainMenuState());
-    }
-    if(FlxG.keys.justPressed.M){
-        FlxG.switchState(new ModState("FreeplaySonicState"));
-    }
-    if(FlxG.keys.pressed.N && FlxG.keys.pressed.W){
-        FlxG.switchState(new ModState("BoWayState"));
+    if(FlxG.save.data.DevMode){
+        if(FlxG.keys.justPressed.P){
+            FlxG.switchState(new MainMenuState());
+        } else if(FlxG.keys.justPressed.M){
+            FlxG.switchState(new ModState("FreeplaySonicState"));
+        } else if(FlxG.keys.pressed.N && FlxG.keys.pressed.W){
+            FlxG.switchState(new ModState("BoWayState"));
+        }
     }
 }
