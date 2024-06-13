@@ -18,6 +18,8 @@ function update(){
         switch(stateSelected){
             case 0:
                 FlxG.switchState(new ModState("FreeplaySonicState"));
+            case 1:
+                FlxG.switchState(new ModState("BoWayState"));
         }
     }
     if(FlxG.keys.justPressed.BACKSPACE){
