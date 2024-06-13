@@ -1,7 +1,8 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.9" name="stage" folder="stages/sonichu/" startCamPosY="600" startCamPosX="1000">
-	<sprite name="bg"               x="-600" y="-200"   sprite="sonichubg"       scroll="1" />
-	<girlfriend />
-	<dad />
-	<boyfriend />
+<stage startCamPosX="1000" folder="stages/sonichu/" startCamPosY="600" zoom="0.7" name="stage">
+	<combo/>
+	<sprite x="-512" sprite="sonichubg" y="-288" name="bg"/>
+	<girlfriend x="429" y="311"/>
+	<dad x="227" y="221"/>
+	<boyfriend x="852" y="241"/>
 </stage>

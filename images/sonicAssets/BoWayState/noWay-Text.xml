@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="noWay-Text.png">
+<SubTexture name="NO WAY?0000" x="0" y="0" width="288" height="18" frameX="-17" frameY="-200" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0001" x="0" y="18" width="288" height="17" frameX="-17" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0002" x="0" y="35" width="288" height="17" frameX="-17" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0003" x="0" y="52" width="288" height="17" frameX="-17" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0004" x="0" y="69" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0005" x="0" y="85" width="288" height="17" frameX="-17" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0006" x="0" y="102" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0007" x="0" y="118" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0008" x="0" y="134" width="158" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0009" x="0" y="140" width="152" height="7" frameX="-86" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0010" x="0" y="147" width="153" height="8" frameX="-86" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0011" x="0" y="155" width="152" height="8" frameX="-86" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0012" x="0" y="163" width="151" height="9" frameX="-86" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0013" x="0" y="172" width="155" height="9" frameX="-86" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0014" x="0" y="181" width="153" height="9" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0015" x="0" y="190" width="154" height="8" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0016" x="0" y="198" width="288" height="17" frameX="-17" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0017" x="0" y="215" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0018" x="0" y="231" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0019" x="0" y="247" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0020" x="0" y="247" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0021" x="0" y="231" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0022" x="0" y="231" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0023" x="0" y="247" width="288" height="16" frameX="-17" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0024" x="0" y="263" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0025" x="0" y="269" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0026" x="0" y="269" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0027" x="0" y="263" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0028" x="0" y="263" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0029" x="0" y="275" width="151" height="6" frameX="-86" frameY="-202" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0030" x="0" y="281" width="159" height="9" frameX="-80" frameY="-201" frameWidth="320" frameHeight="224" />
+<SubTexture name="NO WAY?0031" x="0" y="290" width="320" height="224" frameX="0" frameY="0" frameWidth="320" frameHeight="224" />
+</TextureAtlas>
