@@ -1,8 +1,13 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="bf" camx="-100" y="350" isGF="false" camy="100" color="#5696A9" antialiasing="false" holdTime="3" sprite="hudson/mario88">
-	<anim x="0" loop="false" y="0" fps="1" anim="IDLE" name="idle"/>
-	<anim x="0" loop="false" y="0" fps="15" anim="LEFT" name="singLEFT"/>
-	<anim x="0" loop="false" y="0" fps="15" anim="DOWN" name="singDOWN"/>
-	<anim x="0" loop="false" y="0" fps="15" anim="UP" name="singUP"/>
-	<anim x="0" loop="false" y="0" fps="15" anim="RIGHT" name="singRIGHT"/>
+<character y="350" sprite="hudson/mario88" antialiasing="false" camx="-100" camy="100" icon="bf" color="#5696A9" holdTime="3" isGF="false">
+	<anim name="idle" anim="IDLE" x="0" y="0" fps="1" loop="false"/>
+	<anim name="singLEFT" anim="LEFT0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singDOWN" anim="DOWN0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singUP" anim="UP0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHT" anim="RIGHT0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singLEFT-miss" anim="LEFTMISS" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singDOWN-miss" anim="DOWNMISS" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singUP-miss" anim="UPMISS" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHT-miss" anim="RIGHTMISS" x="0" y="0" fps="15" loop="false"/>
+	<anim name="FUUUUUUUUCK" anim="FUUUUUUUUCK" x="0" y="0" fps="15" loop="false"/>
 </character>

@@ -20,9 +20,9 @@ function preStateSwitch() {
 
 function update(){
     if(FlxG.save.data.DevMode){
-        if(FlxG.keys.justPressed.P){
+        if(FlxG.keys.justPressed.P && FlxG.keys.pressed.W){
             FlxG.switchState(new MainMenuState());
-        } else if(FlxG.keys.justPressed.M){
+        } else if(FlxG.keys.justPressed.M && FlxG.keys.pressed.W){
             FlxG.switchState(new ModState("FreeplaySonicState"));
         } else if(FlxG.keys.pressed.N && FlxG.keys.pressed.W){
             FlxG.switchState(new ModState("BoWayState"));
