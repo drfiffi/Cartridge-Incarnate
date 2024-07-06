@@ -17,18 +17,12 @@ function create() {
         	camera.height = 420;
     	}
     } else {
-        camGame.flashSprite.scaleX = 1.5;
-        camGame.flashSprite.scaleY = 1.5;
-        camHUD.flashSprite.scaleX = 1.5;
-        camHUD.flashSprite.scaleY = 1.5;
-        camHUD.x = 321;
-        camHUD.y = 180;
-        FlxG.initialWidth = FlxG.width = 960;
-		FlxG.initialHeight = FlxG.height = 620;
-		FlxG.resizeWindow(960, 620);
-		for(camera in FlxG.cameras.list) {
-     		camera.width = 960;
-        	camera.height = 620;
+        FlxG.initialWidth = FlxG.width = 640;
+		FlxG.initialHeight = FlxG.height = 420;
+		FlxG.resizeWindow(640, 420);
+    	for(camera in FlxG.cameras.list) {
+     		camera.width = 640;
+        	camera.height = 420;
     	}
     }
     camOther = new FlxCamera(0, 0, 1280, 720);
@@ -73,7 +67,6 @@ function postUpdate(){
 }
 
 function destroy(){
-    FlxG.scaleMode = new RatioScaleMode();
     FlxG.initialWidth = FlxG.width = 1280;
 	FlxG.initialHeight = FlxG.height = 720;
 	FlxG.resizeWindow(1280, 720);
