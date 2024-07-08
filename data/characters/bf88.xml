@@ -1,12 +1,19 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="bf" camx="-40" y="350" isGF="false" camy="50" color="#5696A9" flipX="true" isPlayer="true" antialiasing="false" holdTime="3" sprite="bf/toadfriend/bf88_v2">
-	<anim x="7" loop="false" y="0" fps="1" anim="IDLE" name="idle"/>
-	<anim x="7" loop="false" y="0" fps="15" anim="LEFT" name="singLEFT"/>
-	<anim x="9" loop="false" y="0" fps="15" anim="DOWN" name="singDOWN"/>
-	<anim x="7" loop="false" y="0" fps="15" anim="UP" name="singUP"/>
-	<anim x="7" loop="false" y="0" fps="15" anim="RIGHT" name="singRIGHT"/>
-	<anim x="7" loop="false" y="0" fps="15" anim="MILEFT" name="singLEFTmiss"/>
-	<anim x="9" loop="false" y="0" fps="15" anim="MIDOWN" name="singDOWNmiss"/>
-	<anim x="7" loop="false" y="0" fps="15" anim="MIUP" name="singUPmiss"/>
-	<anim x="7" loop="false" y="0" fps="15" anim="MIRIGHT" name="singRIGHTmiss"/>
+<character y="350" sprite="bf/toadfriend/bf88" antialiasing="false" flipX="true" camx="-40" camy="50" isPlayer="true" icon="bf" holdTime="3" isGF="false">
+	<anim name="idle" anim="IDLE0" x="7" y="0" fps="1" loop="false"/>
+	<anim name="singLEFT" anim="LEFT0" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singDOWN" anim="DOWNPANIC" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singUP" anim="UP0" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHT" anim="RIGHT0" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singLEFTmiss" anim="LEFTMISS" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singDOWNmiss" anim="DOWNMISS" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singUPmiss" anim="UPMISS" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHTmiss" anim="RIGHTMISS" x="7" y="0" fps="15" loop="false"/>
+	<anim name="idle-alt" anim="IDLEPANIC" x="7" y="0" fps="15" loop="true"/>
+	<anim name="singLEFT-alt" anim="LEFTPANIC" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singDOWN-alt" anim="DOWNPANIC" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singUP-alt" anim="UPPANIC" x="7" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHT-alt" anim="RIGHTPANIC" x="7" y="0" fps="15" loop="false"/>
+	<anim name="FUUUUUUUUCK" anim="FUUUUUUUUCK" x="7" y="0" fps="12" loop="false"/>
+	<anim name="ending" anim="END" x="7" y="0" fps="15" loop="true" indices="0,1,0,3,2,0,1,0,2,0,3,1,3,2,0"/>
 </character>

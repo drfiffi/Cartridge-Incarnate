@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-character>
 <character y="350" sprite="hudson/mario88" antialiasing="false" camx="-100" camy="100" icon="bf" color="#5696A9" holdTime="3" isGF="false">
-	<anim name="idle" anim="IDLE" x="0" y="0" fps="1" loop="false"/>
+	<anim name="idle" anim="IDLE0" x="0" y="0" fps="1" loop="false"/>
 	<anim name="singLEFT" anim="LEFT0" x="0" y="0" fps="15" loop="false"/>
 	<anim name="singDOWN" anim="DOWN0" x="0" y="0" fps="15" loop="false"/>
 	<anim name="singUP" anim="UP0" x="0" y="0" fps="15" loop="false"/>
@@ -9,5 +9,11 @@
 	<anim name="singDOWN-miss" anim="DOWNMISS" x="0" y="0" fps="15" loop="false"/>
 	<anim name="singUP-miss" anim="UPMISS" x="0" y="0" fps="15" loop="false"/>
 	<anim name="singRIGHT-miss" anim="RIGHTMISS" x="0" y="0" fps="15" loop="false"/>
-	<anim name="FUUUUUUUUCK" anim="FUUUUUUUUCK" x="0" y="0" fps="15" loop="false"/>
+	<anim name="FUUUUUUUUCK" anim="FUUUUUUUUCK" x="0" y="0" fps="12" loop="false"/>
+	<anim name="idle-alt" anim="IDLEPANIC" x="0" y="0" fps="15" loop="true"/>
+	<anim name="singLEFT-alt" anim="LEFTPANIC" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singDOWN-alt" anim="DOWNPANIC" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singUP-alt" anim="UPPANIC" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHT-alt" anim="RIGHTPANIC" x="0" y="0" fps="15" loop="false"/>
+	<anim name="ending" anim="END" x="0" y="0" fps="15" loop="true" indices="0,2,0,1,0,0,2,0,3,1,3,1,0,2"/>
 </character>
