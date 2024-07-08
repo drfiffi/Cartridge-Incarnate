@@ -2,7 +2,7 @@
 	"params": [
         {
             "name": "Events",
-            "type": "DropDown('Foot Kisser')",
+            "type": "DropDown('Default Cam Zoom (Global)', 'Notification (Global)', 'Popup (Global)', 'Window Name (Global)', 'Foot Kisser (Sonichu)', 'Duet (Hudson)')",
             "defaultValue": ""
         },
         {
