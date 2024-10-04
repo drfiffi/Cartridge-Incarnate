@@ -7,7 +7,7 @@
 	"difficulties": [
 		"normal"
 	],
-	"needsVoices": true,
+	"needsVoices": false,
 	"parsedColor": -16777216,
 	"displayName": "Hudson",
 	"icon": "Icon",
