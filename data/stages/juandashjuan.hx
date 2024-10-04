@@ -1,6 +1,7 @@
 import flixel.system.scaleModes.RatioScaleMode;
 import sys.FileSystem;
 import funkin.backend.scripting.events.NoteHitEvent;
+import funkin.editors.charter.Charter;
 
 public var pixelNotesForBF = true;
 public var pixelNotesForDad = true;
@@ -76,18 +77,9 @@ function postCreate(){
 }
 
 function onSongStart(){
-    if(chartingMode){
-        FlxG.sound.music.play();
-        Conductor.songPosition = FlxG.sound.music.time;
-
-        drums.time = Conductor.songPosition;
-        inst1.time = Conductor.songPosition;
-
-        drums.play();
-        inst1.play();
-    }
     drums.play();
     inst1.play();
+    inst2.play();
 }
 
 function onPlayerMiss(_){
@@ -97,6 +89,7 @@ function onPlayerMiss(_){
         drums.volume = 0;
 
         extraInst1 = true;
+        missedAgain = true;
 
         FlxG.sound.play(Paths.soundRandom('hudsonShit/misses/miss', 1, 2));
         missTimer = new FlxTimer().start(0.75, function(timer){
@@ -139,15 +132,18 @@ function onGamePause(event){
 function resyncMusic(){
     drums.pause();
     inst1.pause();
+    inst2.pause();
 
     FlxG.sound.music.play();
     Conductor.songPosition = FlxG.sound.music.time;
 
     drums.time = Conductor.songPosition;
     inst1.time = Conductor.songPosition;
+    inst2.time = Conductor.songPosition;
 
     drums.play();
     inst1.play();
+    inst2.play();
 }
 
 function postUpdate(){
