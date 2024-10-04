@@ -2,7 +2,6 @@ import openfl.Lib;
 import openfl.system.Capabilities;
 import flixel.system.scaleModes.RatioScaleMode;
 import Type;
-import funkin.editors.charter.Charter;
 
 public var pixelNotesForBF = true;
 public var pixelNotesForDad = true;
@@ -10,10 +9,6 @@ public var pixelNotesForDad = true;
 var camOther:FlxCamera;
 
 var grid:Int = 16;
-
-var loading:Bool = false;
-
-var missTimer:FlxTimer;
 
 function resize(w,h) {
 	FlxG.scaleMode = new RatioScaleMode();
@@ -32,10 +27,12 @@ function preStateSwitch()
         FlxG.resizeWindow(960, 620);
 
 function create() {
-		for(camera in FlxG.cameras.list) {
-     		camera.width = 640;
-        	camera.height = 420;
-    	}
+    for(camera in FlxG.cameras.list) {
+        camera.width = 640;
+        camera.height = 420;
+    }
+
+    importScript('data/scripts/Hudson Inst Shit');
 
     bg = new FlxSprite(0, 20).loadGraphic(Paths.image('stages/hudson/screens/screen1'));
     bg.antialiasing = false;
@@ -57,93 +54,14 @@ function create() {
     dad.setPosition(185, -130);
 
     defaultCamZoom = 1;
-
-    drums = FlxG.sound.load(Paths.music('hudson/drums'));
-    inst1 = FlxG.sound.load(Paths.music('hudson/inst-hidden-main'));
-    missMusic(false);
 }
-
-/*import openfl.display.Bitmap;
-import openfl.display.BitmapData;*/
 
 function postCreate(){
-    remove(scoreTxt);
-    remove(missesTxt);
-    remove(accuracyTxt);
-    remove(healthBarBG);
-    remove(iconP1);
-    remove(iconP2);
-    remove(healthBar);
-    remove(comboGroup);
-}
-
-function onSongStart(){
-    drums.play();
-    inst1.play();
-
-    inst1.time = drums.time = (PlayState.chartingMode && Charter.startHere) ? Charter.startTime : 0;
-}
-
-function onPlayerMiss(_){
-    _.playMissSound = false;
-    if(missTimer != null) missTimer.cancel();
-
-    if(!_.note.isSustainNote){
-        drums.volume = 0;
-
-        FlxG.sound.play(Paths.soundRandom('hudsonShit/misses/miss', 1, 2));
-        missTimer = new FlxTimer().start(0.75, function(timer){drums.volume = 1;});
-    }
-    missMusic(true);
+    hudShit = [healthBar, healthBarBG, iconP1, iconP2, scoreTxt, accuracyTxt, missesTxt, comboGroup ];
+    for(i in hudShit) remove(i);
 }
 
 function onNoteHit(_) _.enableCamZooming = false;
-
-function onPlayerHit(_){
-    missMusic(false);
-    _.showSplash = false;
-}
-
-function onOpponentHit(_)
-    if(!duet)
-        missMusic(false);
-
-function onGameOver(){
-    missTimer.cancel();
-    drums.volume = 0;
-    inst1.volume = 0;
-}
-
-function reloadMusic(fully){
-    switch(fully){
-        case true:
-            drums.pause();
-            inst1.pause();
-    }
-    Conductor.songPosition = FlxG.sound.music.time;
-
-    drums.time = Conductor.songPosition;
-    inst1.time = Conductor.songPosition;
-
-    drums.play();
-    inst1.play();
-}
-
-function onGamePause(event) reloadMusic(true);
-
-function update(){
-    if(subState == null && loading == true){
-        reloadMusic(false);
-        loading = false;
-    }
-}
-
-function missMusic(allow){
-    switch(allow){
-        case true: inst1.volume = 1;
-        case false: inst1.volume = 0;
-    }
-}
 
 function destroy(){
     if(Type.getClassName(Type.getClass(FlxG.game._requestedState)) != "funkin.game.PlayState"){
@@ -235,14 +153,6 @@ function onEvent(_){
                 } else if(_.event.params[1] == 'false'){
                     duet = false;
                 }
-            case 'Loading Screen (Hudson)':
-                paused = true;
-                persistentUpdate = false;
-                persistentDraw = true;
-                openSubState(new ModSubState("hudson/LoadingScreen"));
-                drums.pause();
-                inst1.pause();
-                loading = true;
         }
     }
 }
