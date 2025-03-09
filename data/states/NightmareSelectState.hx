@@ -28,10 +28,10 @@ function update(){
 }
 
 function create(){
-    FlxG.sound.playMusic(Paths.music('U2SLOV2'), 0);
+    FlxG.sound.playMusic(Paths.music('nightmareSelectV2'), 0);
 	FlxTween.tween(FlxG.sound.music, {volume: 1}, 1);
 
-    topText = new FlxText(0, 100, 1280, 'CHOSE YOUR NIGHTMARE', 0);
+    topText = new FlxText(0, 100, 1280, 'CHOOSE YOUR NIGHTMARE', 0);
     topText.setFormat(Paths.font('vcr.ttf'), 40, FlxColor.WHITE, 'center', FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
     topText.antialiasing = false;
     topText.borderSize = 0;
